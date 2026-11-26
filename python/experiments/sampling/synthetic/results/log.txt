@@ -1,0 +1,326 @@
+== prior_draws
+== prior_accuracy
+part=prior_accuracy, seed=0, k=3, rho=0.01, cond=774.9, method=KP, cov_error=1.377e-14, whitened_error=2.417e-14, kl_gaussian=1.155e-27, wasserstein2=4.46e-07
+part=prior_accuracy, seed=0, k=3, rho=0.01, cond=774.9, method=Cholesky, cov_error=2.22e-16, whitened_error=8.959e-16, kl_gaussian=9.368e-31, wasserstein2=3.77e-07
+part=prior_accuracy, seed=1, k=3, rho=0.01, cond=174.3, method=KP, cov_error=1.421e-14, whitened_error=1.421e-14, kl_gaussian=8.435e-28, wasserstein2=1.686e-07
+part=prior_accuracy, seed=1, k=3, rho=0.01, cond=174.3, method=Cholesky, cov_error=2.22e-16, whitened_error=5.031e-16, kl_gaussian=6.04e-31, wasserstein2=2.384e-07
+part=prior_accuracy, seed=2, k=3, rho=0.01, cond=1590, method=KP, cov_error=1.177e-14, whitened_error=3.897e-14, kl_gaussian=1.207e-27, wasserstein2=5.331e-07
+part=prior_accuracy, seed=2, k=3, rho=0.01, cond=1590, method=Cholesky, cov_error=2.22e-16, whitened_error=8.098e-16, kl_gaussian=1.085e-30, wasserstein2=8.921e-07
+part=prior_accuracy, seed=3, k=3, rho=0.01, cond=566.7, method=KP, cov_error=1.354e-14, whitened_error=1.399e-14, kl_gaussian=9.287e-28, wasserstein2=1.686e-07
+part=prior_accuracy, seed=3, k=3, rho=0.01, cond=566.7, method=Cholesky, cov_error=2.22e-16, whitened_error=8.145e-16, kl_gaussian=1.072e-30, wasserstein2=6.951e-07
+part=prior_accuracy, seed=4, k=3, rho=0.01, cond=1213, method=KP, cov_error=1.987e-14, whitened_error=3.114e-14, kl_gaussian=1.308e-27, wasserstein2=0
+part=prior_accuracy, seed=4, k=3, rho=0.01, cond=1213, method=Cholesky, cov_error=2.22e-16, whitened_error=5.602e-16, kl_gaussian=1.109e-30, wasserstein2=0
+part=prior_accuracy, seed=0, k=3, rho=0.02, cond=2253, method=KP, cov_error=5.551e-15, whitened_error=8.78e-15, kl_gaussian=2.858e-28, wasserstein2=0
+part=prior_accuracy, seed=0, k=3, rho=0.02, cond=2253, method=Cholesky, cov_error=2.22e-16, whitened_error=7.728e-16, kl_gaussian=1.085e-30, wasserstein2=0
+part=prior_accuracy, seed=1, k=3, rho=0.02, cond=492, method=KP, cov_error=5.995e-15, whitened_error=1.361e-14, kl_gaussian=2.995e-28, wasserstein2=4.46e-07
+part=prior_accuracy, seed=1, k=3, rho=0.02, cond=492, method=Cholesky, cov_error=2.22e-16, whitened_error=5.159e-16, kl_gaussian=8.628e-31, wasserstein2=0
+part=prior_accuracy, seed=2, k=3, rho=0.02, cond=4659, method=KP, cov_error=6.883e-15, whitened_error=4.275e-14, kl_gaussian=8.339e-28, wasserstein2=6.308e-07
+part=prior_accuracy, seed=2, k=3, rho=0.02, cond=4659, method=Cholesky, cov_error=3.331e-16, whitened_error=1.14e-15, kl_gaussian=1.948e-30, wasserstein2=0
+part=prior_accuracy, seed=3, k=3, rho=0.02, cond=1454, method=KP, cov_error=6.883e-15, whitened_error=1.269e-14, kl_gaussian=3.785e-28, wasserstein2=5.84e-07
+part=prior_accuracy, seed=3, k=3, rho=0.02, cond=1454, method=Cholesky, cov_error=2.22e-16, whitened_error=9.892e-16, kl_gaussian=1.491e-30, wasserstein2=0
+part=prior_accuracy, seed=4, k=3, rho=0.02, cond=3704, method=KP, cov_error=5.884e-15, whitened_error=4.129e-14, kl_gaussian=1.116e-27, wasserstein2=0
+part=prior_accuracy, seed=4, k=3, rho=0.02, cond=3704, method=Cholesky, cov_error=2.22e-16, whitened_error=1.409e-15, kl_gaussian=2.095e-30, wasserstein2=1.066e-06
+part=prior_accuracy, seed=0, k=3, rho=0.05, cond=9898, method=KP, cov_error=2.442e-15, whitened_error=4.623e-14, kl_gaussian=1.648e-27, wasserstein2=1.025e-06
+part=prior_accuracy, seed=0, k=3, rho=0.05, cond=9898, method=Cholesky, cov_error=3.331e-16, whitened_error=1.154e-15, kl_gaussian=2.823e-30, wasserstein2=2.211e-06
+part=prior_accuracy, seed=1, k=3, rho=0.05, cond=2389, method=KP, cov_error=1.998e-15, whitened_error=2.744e-14, kl_gaussian=7.321e-28, wasserstein2=0
+part=prior_accuracy, seed=1, k=3, rho=0.05, cond=2389, method=Cholesky, cov_error=2.22e-16, whitened_error=7.936e-16, kl_gaussian=1.923e-30, wasserstein2=0
+part=prior_accuracy, seed=2, k=3, rho=0.05, cond=2.029e+04, method=KP, cov_error=2.442e-15, whitened_error=1.281e-13, kl_gaussian=6.981e-27, wasserstein2=0
+part=prior_accuracy, seed=2, k=3, rho=0.05, cond=2.029e+04, method=Cholesky, cov_error=3.331e-16, whitened_error=1.182e-15, kl_gaussian=3.032e-30, wasserstein2=2.016e-06
+part=prior_accuracy, seed=3, k=3, rho=0.05, cond=6236, method=KP, cov_error=2.442e-15, whitened_error=4.431e-14, kl_gaussian=1.795e-27, wasserstein2=1.498e-06
+part=prior_accuracy, seed=3, k=3, rho=0.05, cond=6236, method=Cholesky, cov_error=2.22e-16, whitened_error=1.182e-15, kl_gaussian=3.008e-30, wasserstein2=8.085e-07
+part=prior_accuracy, seed=4, k=3, rho=0.05, cond=1.71e+04, method=KP, cov_error=1.998e-15, whitened_error=1.713e-13, kl_gaussian=1.372e-26, wasserstein2=0
+part=prior_accuracy, seed=4, k=3, rho=0.05, cond=1.71e+04, method=Cholesky, cov_error=3.331e-16, whitened_error=1.737e-15, kl_gaussian=4.302e-30, wasserstein2=0
+part=prior_accuracy, seed=0, k=3, rho=0.1, cond=3.125e+04, method=KP, cov_error=1.11e-15, whitened_error=8.569e-14, kl_gaussian=6.036e-27, wasserstein2=2.978e-06
+part=prior_accuracy, seed=0, k=3, rho=0.1, cond=3.125e+04, method=Cholesky, cov_error=3.331e-16, whitened_error=2.442e-15, kl_gaussian=7.433e-30, wasserstein2=3.199e-06
+part=prior_accuracy, seed=1, k=3, rho=0.1, cond=7758, method=KP, cov_error=8.882e-16, whitened_error=8.587e-14, kl_gaussian=6.22e-27, wasserstein2=0
+part=prior_accuracy, seed=1, k=3, rho=0.1, cond=7758, method=Cholesky, cov_error=2.22e-16, whitened_error=1.526e-15, kl_gaussian=5.226e-30, wasserstein2=7.349e-07
+part=prior_accuracy, seed=2, k=3, rho=0.1, cond=6.652e+04, method=KP, cov_error=8.882e-16, whitened_error=1.961e-13, kl_gaussian=2.855e-26, wasserstein2=2.396e-06
+part=prior_accuracy, seed=2, k=3, rho=0.1, cond=6.652e+04, method=Cholesky, cov_error=2.22e-16, whitened_error=2.215e-15, kl_gaussian=1.069e-29, wasserstein2=0
+part=prior_accuracy, seed=3, k=3, rho=0.1, cond=2.049e+04, method=KP, cov_error=1.11e-15, whitened_error=1.443e-13, kl_gaussian=1.108e-26, wasserstein2=0
+part=prior_accuracy, seed=3, k=3, rho=0.1, cond=2.049e+04, method=Cholesky, cov_error=3.331e-16, whitened_error=2.443e-15, kl_gaussian=9.207e-30, wasserstein2=6.518e-06
+part=prior_accuracy, seed=4, k=3, rho=0.1, cond=5.634e+04, method=KP, cov_error=6.661e-16, whitened_error=4.005e-13, kl_gaussian=6.688e-26, wasserstein2=1.093e-06
+part=prior_accuracy, seed=4, k=3, rho=0.1, cond=5.634e+04, method=Cholesky, cov_error=2.22e-16, whitened_error=2.667e-15, kl_gaussian=1.001e-29, wasserstein2=0
+part=prior_accuracy, seed=0, k=3, rho=0.2, cond=9.698e+04, method=KP, cov_error=6.661e-16, whitened_error=2.933e-13, kl_gaussian=5.971e-26, wasserstein2=3.401e-06
+part=prior_accuracy, seed=0, k=3, rho=0.2, cond=9.698e+04, method=Cholesky, cov_error=3.331e-16, whitened_error=4.434e-15, kl_gaussian=1.808e-29, wasserstein2=0
+part=prior_accuracy, seed=1, k=3, rho=0.2, cond=2.416e+04, method=KP, cov_error=5.551e-16, whitened_error=1.524e-13, kl_gaussian=2.916e-26, wasserstein2=0
+part=prior_accuracy, seed=1, k=3, rho=0.2, cond=2.416e+04, method=Cholesky, cov_error=4.441e-16, whitened_error=2.252e-15, kl_gaussian=9.442e-30, wasserstein2=0
+part=prior_accuracy, seed=2, k=3, rho=0.2, cond=2.274e+05, method=KP, cov_error=6.661e-16, whitened_error=8.336e-13, kl_gaussian=2.359e-25, wasserstein2=6.303e-06
+part=prior_accuracy, seed=2, k=3, rho=0.2, cond=2.274e+05, method=Cholesky, cov_error=3.331e-16, whitened_error=3.185e-15, kl_gaussian=2.342e-29, wasserstein2=0
+part=prior_accuracy, seed=3, k=3, rho=0.2, cond=6.933e+04, method=KP, cov_error=8.882e-16, whitened_error=2.76e-13, kl_gaussian=6.905e-26, wasserstein2=6.551e-06
+part=prior_accuracy, seed=3, k=3, rho=0.2, cond=6.933e+04, method=Cholesky, cov_error=3.331e-16, whitened_error=2.629e-15, kl_gaussian=1.39e-29, wasserstein2=0
+part=prior_accuracy, seed=4, k=3, rho=0.2, cond=1.799e+05, method=KP, cov_error=6.661e-16, whitened_error=1.205e-12, kl_gaussian=5.929e-25, wasserstein2=6.792e-06
+part=prior_accuracy, seed=4, k=3, rho=0.2, cond=1.799e+05, method=Cholesky, cov_error=4.441e-16, whitened_error=3.611e-15, kl_gaussian=2.39e-29, wasserstein2=1.562e-05
+part=prior_accuracy, seed=0, k=3, rho=0.3, cond=1.869e+05, method=KP, cov_error=6.661e-16, whitened_error=4.28e-13, kl_gaussian=1.712e-25, wasserstein2=3.844e-06
+part=prior_accuracy, seed=0, k=3, rho=0.3, cond=1.869e+05, method=Cholesky, cov_error=4.441e-16, whitened_error=4.652e-15, kl_gaussian=2.432e-29, wasserstein2=1.142e-05
+part=prior_accuracy, seed=1, k=3, rho=0.3, cond=4.7e+04, method=KP, cov_error=5.551e-16, whitened_error=2.545e-13, kl_gaussian=1.098e-25, wasserstein2=0
+part=prior_accuracy, seed=1, k=3, rho=0.3, cond=4.7e+04, method=Cholesky, cov_error=3.331e-16, whitened_error=3.502e-15, kl_gaussian=1.809e-29, wasserstein2=7.129e-06
+part=prior_accuracy, seed=2, k=3, rho=0.3, cond=4.497e+05, method=KP, cov_error=6.661e-16, whitened_error=8.769e-13, kl_gaussian=4.024e-25, wasserstein2=1.394e-05
+part=prior_accuracy, seed=2, k=3, rho=0.3, cond=4.497e+05, method=Cholesky, cov_error=4.441e-16, whitened_error=4.878e-15, kl_gaussian=4.042e-29, wasserstein2=0
+part=prior_accuracy, seed=3, k=3, rho=0.3, cond=1.374e+05, method=KP, cov_error=7.772e-16, whitened_error=6.027e-13, kl_gaussian=2.342e-25, wasserstein2=0
+part=prior_accuracy, seed=3, k=3, rho=0.3, cond=1.374e+05, method=Cholesky, cov_error=4.441e-16, whitened_error=3.261e-15, kl_gaussian=1.701e-29, wasserstein2=2.044e-06
+part=prior_accuracy, seed=4, k=3, rho=0.3, cond=3.472e+05, method=KP, cov_error=5.551e-16, whitened_error=2.218e-12, kl_gaussian=1.58e-24, wasserstein2=0
+part=prior_accuracy, seed=4, k=3, rho=0.3, cond=3.472e+05, method=Cholesky, cov_error=4.441e-16, whitened_error=5.397e-15, kl_gaussian=3.653e-29, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.01, cond=2e+05, method=KP, cov_error=8.882e-15, whitened_error=1.798e-12, kl_gaussian=8.465e-25, wasserstein2=5.486e-06
+part=prior_accuracy, seed=0, k=5, rho=0.01, cond=2e+05, method=Cholesky, cov_error=2.22e-16, whitened_error=7.869e-15, kl_gaussian=3.684e-29, wasserstein2=4.941e-06
+part=prior_accuracy, seed=1, k=5, rho=0.01, cond=2.332e+04, method=KP, cov_error=8.66e-15, whitened_error=3.193e-13, kl_gaussian=5.89e-26, wasserstein2=1.959e-06
+part=prior_accuracy, seed=1, k=5, rho=0.01, cond=2.332e+04, method=Cholesky, cov_error=2.22e-16, whitened_error=2.418e-15, kl_gaussian=7.95e-30, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.01, cond=3.178e+06, method=KP, cov_error=7.772e-15, whitened_error=1.5e-10, kl_gaussian=5.63e-21, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.01, cond=3.178e+06, method=Cholesky, cov_error=2.22e-16, whitened_error=6.367e-14, kl_gaussian=1.969e-27, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.01, cond=2.128e+05, method=KP, cov_error=9.326e-15, whitened_error=1.153e-12, kl_gaussian=5.066e-25, wasserstein2=6.691e-06
+part=prior_accuracy, seed=3, k=5, rho=0.01, cond=2.128e+05, method=Cholesky, cov_error=2.22e-16, whitened_error=9.698e-15, kl_gaussian=4.652e-29, wasserstein2=1.13e-05
+part=prior_accuracy, seed=4, k=5, rho=0.01, cond=2.683e+06, method=KP, cov_error=8.66e-15, whitened_error=5.209e-11, kl_gaussian=8.869e-22, wasserstein2=0
+part=prior_accuracy, seed=4, k=5, rho=0.01, cond=2.683e+06, method=Cholesky, cov_error=2.22e-16, whitened_error=1.352e-14, kl_gaussian=1.406e-28, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.02, cond=2.168e+06, method=KP, cov_error=5.551e-15, whitened_error=4.845e-11, kl_gaussian=5.883e-22, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.02, cond=2.168e+06, method=Cholesky, cov_error=2.22e-16, whitened_error=2.247e-14, kl_gaussian=2.433e-28, wasserstein2=0
+part=prior_accuracy, seed=1, k=5, rho=0.02, cond=2.433e+05, method=KP, cov_error=3.997e-15, whitened_error=1.387e-12, kl_gaussian=1.162e-24, wasserstein2=3.397e-06
+part=prior_accuracy, seed=1, k=5, rho=0.02, cond=2.433e+05, method=Cholesky, cov_error=2.22e-16, whitened_error=8.071e-15, kl_gaussian=5.843e-29, wasserstein2=3.874e-06
+part=prior_accuracy, seed=2, k=5, rho=0.02, cond=3.77e+07, method=KP, cov_error=4.885e-15, whitened_error=1.925e-10, kl_gaussian=9.595e-21, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.02, cond=3.77e+07, method=Cholesky, cov_error=2.22e-16, whitened_error=4.937e-14, kl_gaussian=1.242e-27, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.02, cond=2.08e+06, method=KP, cov_error=4.552e-15, whitened_error=4.006e-11, kl_gaussian=4.286e-22, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.02, cond=2.08e+06, method=Cholesky, cov_error=2.22e-16, whitened_error=3.838e-14, kl_gaussian=7.123e-28, wasserstein2=0
+part=prior_accuracy, seed=4, k=5, rho=0.02, cond=3.283e+07, method=KP, cov_error=4.441e-15, whitened_error=6.62e-10, kl_gaussian=1.626e-19, wasserstein2=7.529e-05
+part=prior_accuracy, seed=4, k=5, rho=0.02, cond=3.283e+07, method=Cholesky, cov_error=2.22e-16, whitened_error=1.833e-13, kl_gaussian=1.715e-26, wasserstein2=8.025e-05
+part=prior_accuracy, seed=0, k=5, rho=0.05, cond=5.806e+07, method=KP, cov_error=2.442e-15, whitened_error=7.816e-10, kl_gaussian=1.533e-19, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.05, cond=5.806e+07, method=Cholesky, cov_error=3.331e-16, whitened_error=1.207e-13, kl_gaussian=7.759e-27, wasserstein2=0
+part=prior_accuracy, seed=1, k=5, rho=0.05, cond=7.288e+06, method=KP, cov_error=8.882e-16, whitened_error=1.771e-11, kl_gaussian=1.514e-22, wasserstein2=0
+part=prior_accuracy, seed=1, k=5, rho=0.05, cond=7.288e+06, method=Cholesky, cov_error=3.331e-16, whitened_error=3.281e-14, kl_gaussian=1.592e-27, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.05, cond=1.026e+09, method=KP, cov_error=2.22e-15, whitened_error=2.17e-09, kl_gaussian=1.195e-18, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.05, cond=1.026e+09, method=Cholesky, cov_error=2.22e-16, whitened_error=7.971e-13, kl_gaussian=3.178e-25, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.05, cond=5.627e+07, method=KP, cov_error=1.998e-15, whitened_error=1.426e-10, kl_gaussian=1.266e-20, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.05, cond=5.627e+07, method=Cholesky, cov_error=2.22e-16, whitened_error=8.773e-14, kl_gaussian=4.929e-27, wasserstein2=5.864e-05
+part=prior_accuracy, seed=4, k=5, rho=0.05, cond=9.529e+08, method=KP, cov_error=1.776e-15, whitened_error=1.597e-08, kl_gaussian=1.083e-16, wasserstein2=0
+part=prior_accuracy, seed=4, k=5, rho=0.05, cond=9.529e+08, method=Cholesky, cov_error=3.331e-16, whitened_error=5.509e-13, kl_gaussian=2.198e-25, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.1, cond=7.361e+08, method=KP, cov_error=6.661e-16, whitened_error=3.796e-09, kl_gaussian=3.666e-18, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.1, cond=7.361e+08, method=Cholesky, cov_error=3.331e-16, whitened_error=4.27e-13, kl_gaussian=9.376e-26, wasserstein2=0
+part=prior_accuracy, seed=1, k=5, rho=0.1, cond=9.666e+07, method=KP, cov_error=6.661e-16, whitened_error=3.301e-10, kl_gaussian=5.643e-20, wasserstein2=0
+part=prior_accuracy, seed=1, k=5, rho=0.1, cond=9.666e+07, method=Cholesky, cov_error=3.331e-16, whitened_error=1.149e-13, kl_gaussian=1.651e-26, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.1, cond=1.316e+10, method=KP, cov_error=9.992e-16, whitened_error=6.247e-08, kl_gaussian=9.76e-16, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.1, cond=1.316e+10, method=Cholesky, cov_error=3.331e-16, whitened_error=2.469e-12, kl_gaussian=3.06e-24, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.1, cond=7.398e+08, method=KP, cov_error=8.882e-16, whitened_error=1.927e-09, kl_gaussian=1.457e-18, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.1, cond=7.398e+08, method=Cholesky, cov_error=3.331e-16, whitened_error=4.112e-13, kl_gaussian=8.355e-26, wasserstein2=0
+part=prior_accuracy, seed=4, k=5, rho=0.1, cond=1.265e+10, method=KP, cov_error=8.882e-16, whitened_error=1.343e-07, kl_gaussian=8.558e-15, wasserstein2=0
+part=prior_accuracy, seed=4, k=5, rho=0.1, cond=1.265e+10, method=Cholesky, cov_error=4.441e-16, whitened_error=1.865e-12, kl_gaussian=2.516e-24, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.2, cond=9.128e+09, method=KP, cov_error=6.661e-16, whitened_error=3.418e-08, kl_gaussian=2.969e-16, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.2, cond=9.128e+09, method=Cholesky, cov_error=4.441e-16, whitened_error=1.66e-12, kl_gaussian=1.421e-24, wasserstein2=0
+part=prior_accuracy, seed=1, k=5, rho=0.2, cond=1.192e+09, method=KP, cov_error=9.992e-16, whitened_error=3.654e-09, kl_gaussian=7.381e-18, wasserstein2=0
+part=prior_accuracy, seed=1, k=5, rho=0.2, cond=1.192e+09, method=Cholesky, cov_error=4.441e-16, whitened_error=3.592e-13, kl_gaussian=1.943e-25, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.2, cond=1.836e+11, method=KP, cov_error=8.882e-16, whitened_error=1.083e-06, kl_gaussian=2.93e-13, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.2, cond=1.836e+11, method=Cholesky, cov_error=4.441e-16, whitened_error=1.151e-11, kl_gaussian=6.706e-23, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.2, cond=1.002e+10, method=KP, cov_error=7.772e-16, whitened_error=1.465e-08, kl_gaussian=9.7e-17, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.2, cond=1.002e+10, method=Cholesky, cov_error=4.441e-16, whitened_error=9.079e-13, kl_gaussian=7.436e-25, wasserstein2=0
+part=prior_accuracy, seed=4, k=5, rho=0.2, cond=1.628e+11, method=KP, cov_error=1.221e-15, whitened_error=7.427e-07, kl_gaussian=1.658e-13, wasserstein2=0
+part=prior_accuracy, seed=4, k=5, rho=0.2, cond=1.628e+11, method=Cholesky, cov_error=4.441e-16, whitened_error=9.317e-12, kl_gaussian=5.957e-23, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.3, cond=3.965e+10, method=KP, cov_error=6.661e-16, whitened_error=3.842e-08, kl_gaussian=5.727e-16, wasserstein2=0
+part=prior_accuracy, seed=0, k=5, rho=0.3, cond=3.965e+10, method=Cholesky, cov_error=4.441e-16, whitened_error=3.586e-12, kl_gaussian=7.247e-24, wasserstein2=0
+part=prior_accuracy, seed=1, k=5, rho=0.3, cond=5.232e+09, method=KP, cov_error=7.772e-16, whitened_error=2.716e-08, kl_gaussian=2.229e-16, wasserstein2=0
+part=prior_accuracy, seed=1, k=5, rho=0.3, cond=5.232e+09, method=Cholesky, cov_error=4.441e-16, whitened_error=8.845e-13, kl_gaussian=9.657e-25, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.3, cond=8.289e+11, method=KP, cov_error=7.772e-16, whitened_error=4.82e-06, kl_gaussian=5.81e-12, wasserstein2=0
+part=prior_accuracy, seed=2, k=5, rho=0.3, cond=8.289e+11, method=Cholesky, cov_error=5.551e-16, whitened_error=1.033e-11, kl_gaussian=5.631e-23, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.3, cond=4.522e+10, method=KP, cov_error=1.332e-15, whitened_error=1.856e-07, kl_gaussian=8.903e-15, wasserstein2=0
+part=prior_accuracy, seed=3, k=5, rho=0.3, cond=4.522e+10, method=Cholesky, cov_error=4.441e-16, whitened_error=3.204e-12, kl_gaussian=6.051e-24, wasserstein2=0
+part=prior_accuracy, seed=4, k=5, rho=0.3, cond=7.084e+11, method=KP, cov_error=1.221e-15, whitened_error=3.726e-06, kl_gaussian=6.376e-12, wasserstein2=0
+part=prior_accuracy, seed=4, k=5, rho=0.3, cond=7.084e+11, method=Cholesky, cov_error=4.441e-16, whitened_error=1.549e-11, kl_gaussian=1.822e-22, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.01, cond=1.194e+06, method=KP, cov_error=1.843e-14, whitened_error=2.761e-11, kl_gaussian=1.953e-22, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.01, cond=1.194e+06, method=Cholesky, cov_error=2.22e-16, whitened_error=9.904e-15, kl_gaussian=1.265e-28, wasserstein2=0
+part=prior_accuracy, seed=1, k=7, rho=0.01, cond=2.943e+05, method=KP, cov_error=7.105e-15, whitened_error=6.608e-12, kl_gaussian=1.129e-23, wasserstein2=0
+part=prior_accuracy, seed=1, k=7, rho=0.01, cond=2.943e+05, method=Cholesky, cov_error=2.22e-16, whitened_error=2.922e-14, kl_gaussian=4.85e-28, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.01, cond=1.529e+08, method=KP, cov_error=8.438e-15, whitened_error=2.504e-09, kl_gaussian=1.567e-18, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.01, cond=1.529e+08, method=Cholesky, cov_error=2.22e-16, whitened_error=3.15e-14, kl_gaussian=1.078e-27, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.01, cond=4.943e+06, method=KP, cov_error=9.326e-15, whitened_error=1.496e-11, kl_gaussian=7.002e-23, wasserstein2=1.436e-05
+part=prior_accuracy, seed=3, k=7, rho=0.01, cond=4.943e+06, method=Cholesky, cov_error=2.22e-16, whitened_error=1.884e-14, kl_gaussian=2.775e-28, wasserstein2=5.075e-05
+part=prior_accuracy, seed=4, k=7, rho=0.01, cond=2.186e+08, method=KP, cov_error=8.993e-15, whitened_error=5.854e-09, kl_gaussian=9.537e-18, wasserstein2=0.0001354
+part=prior_accuracy, seed=4, k=7, rho=0.01, cond=2.186e+08, method=Cholesky, cov_error=2.22e-16, whitened_error=1.653e-13, kl_gaussian=1.439e-26, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.02, cond=3.82e+07, method=KP, cov_error=5.995e-15, whitened_error=2.074e-10, kl_gaussian=1.33e-20, wasserstein2=9.914e-05
+part=prior_accuracy, seed=0, k=7, rho=0.02, cond=3.82e+07, method=Cholesky, cov_error=2.22e-16, whitened_error=1.817e-13, kl_gaussian=1.62e-26, wasserstein2=3.299e-05
+part=prior_accuracy, seed=1, k=7, rho=0.02, cond=7.26e+06, method=KP, cov_error=4.219e-15, whitened_error=1.004e-10, kl_gaussian=2.753e-21, wasserstein2=2.894e-05
+part=prior_accuracy, seed=1, k=7, rho=0.02, cond=7.26e+06, method=Cholesky, cov_error=2.22e-16, whitened_error=8.903e-14, kl_gaussian=4.505e-27, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.02, cond=6.775e+09, method=KP, cov_error=3.997e-15, whitened_error=4.711e-08, kl_gaussian=5.549e-16, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.02, cond=6.775e+09, method=Cholesky, cov_error=2.22e-16, whitened_error=3.056e-13, kl_gaussian=7.747e-26, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.02, cond=1.68e+08, method=KP, cov_error=4.108e-15, whitened_error=3.552e-09, kl_gaussian=3.433e-18, wasserstein2=0.0003112
+part=prior_accuracy, seed=3, k=7, rho=0.02, cond=1.68e+08, method=Cholesky, cov_error=2.22e-16, whitened_error=1.026e-13, kl_gaussian=3.719e-27, wasserstein2=0
+part=prior_accuracy, seed=4, k=7, rho=0.02, cond=8.763e+09, method=KP, cov_error=3.664e-15, whitened_error=7.877e-08, kl_gaussian=1.71e-15, wasserstein2=0
+part=prior_accuracy, seed=4, k=7, rho=0.02, cond=8.763e+09, method=Cholesky, cov_error=2.22e-16, whitened_error=1.558e-12, kl_gaussian=1.87e-24, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.05, cond=5.671e+09, method=KP, cov_error=1.554e-15, whitened_error=2.329e-08, kl_gaussian=2.066e-16, wasserstein2=0.0002029
+part=prior_accuracy, seed=0, k=7, rho=0.05, cond=5.671e+09, method=Cholesky, cov_error=3.331e-16, whitened_error=1.682e-12, kl_gaussian=1.909e-24, wasserstein2=0
+part=prior_accuracy, seed=1, k=7, rho=0.05, cond=1.036e+09, method=KP, cov_error=1.776e-15, whitened_error=5.439e-09, kl_gaussian=1.503e-17, wasserstein2=0.0004556
+part=prior_accuracy, seed=1, k=7, rho=0.05, cond=1.036e+09, method=Cholesky, cov_error=3.331e-16, whitened_error=4.564e-13, kl_gaussian=3.289e-25, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.05, cond=1.126e+12, method=KP, cov_error=1.443e-15, whitened_error=1.375e-05, kl_gaussian=4.726e-11, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.05, cond=1.126e+12, method=Cholesky, cov_error=3.331e-16, whitened_error=2.484e-11, kl_gaussian=2.968e-22, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.05, cond=2.727e+10, method=KP, cov_error=1.665e-15, whitened_error=2.928e-07, kl_gaussian=2.196e-14, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.05, cond=2.727e+10, method=Cholesky, cov_error=3.331e-16, whitened_error=7.638e-13, kl_gaussian=4.78e-25, wasserstein2=0
+part=prior_accuracy, seed=4, k=7, rho=0.05, cond=1.406e+12, method=KP, cov_error=1.776e-15, whitened_error=2.179e-06, kl_gaussian=1.189e-12, wasserstein2=0.0002468
+part=prior_accuracy, seed=4, k=7, rho=0.05, cond=1.406e+12, method=Cholesky, cov_error=3.331e-16, whitened_error=2.093e-11, kl_gaussian=2.495e-22, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.1, cond=2.827e+11, method=KP, cov_error=8.882e-16, whitened_error=1.529e-06, kl_gaussian=6.27e-13, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.1, cond=2.827e+11, method=Cholesky, cov_error=3.331e-16, whitened_error=7.569e-12, kl_gaussian=5.878e-23, wasserstein2=0
+part=prior_accuracy, seed=1, k=7, rho=0.1, cond=5.28e+10, method=KP, cov_error=9.992e-16, whitened_error=1.209e-07, kl_gaussian=8.793e-15, wasserstein2=0.0002461
+part=prior_accuracy, seed=1, k=7, rho=0.1, cond=5.28e+10, method=Cholesky, cov_error=3.331e-16, whitened_error=3.226e-12, kl_gaussian=1.698e-23, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.1, cond=5.714e+13, method=KP, cov_error=7.772e-16, whitened_error=0.0001872, kl_gaussian=8.761e-09, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.1, cond=5.714e+13, method=Cholesky, cov_error=4.441e-16, whitened_error=9.755e-11, kl_gaussian=5.01e-21, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.1, cond=1.423e+12, method=KP, cov_error=8.882e-16, whitened_error=4.319e-06, kl_gaussian=5.632e-12, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.1, cond=1.423e+12, method=Cholesky, cov_error=4.441e-16, whitened_error=2.668e-11, kl_gaussian=3.444e-22, wasserstein2=0
+part=prior_accuracy, seed=4, k=7, rho=0.1, cond=7.172e+13, method=KP, cov_error=8.882e-16, whitened_error=0.000236, kl_gaussian=2.218e-08, wasserstein2=0
+part=prior_accuracy, seed=4, k=7, rho=0.1, cond=7.172e+13, method=Cholesky, cov_error=3.331e-16, whitened_error=2.219e-10, kl_gaussian=3.052e-20, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.2, cond=1.395e+13, method=KP, cov_error=1.11e-15, whitened_error=1.933e-05, kl_gaussian=1.784e-10, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.2, cond=1.395e+13, method=Cholesky, cov_error=4.441e-16, whitened_error=7.914e-11, kl_gaussian=3.625e-21, wasserstein2=0
+part=prior_accuracy, seed=1, k=7, rho=0.2, cond=2.563e+12, method=KP, cov_error=1.11e-15, whitened_error=7.167e-06, kl_gaussian=2.52e-11, wasserstein2=0
+part=prior_accuracy, seed=1, k=7, rho=0.2, cond=2.563e+12, method=Cholesky, cov_error=5.551e-16, whitened_error=3.598e-11, kl_gaussian=1.117e-21, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.2, cond=3.234e+15, method=KP, cov_error=8.882e-16, whitened_error=0.0004002, kl_gaussian=4.285e-08, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.2, cond=3.234e+15, method=Cholesky, cov_error=4.441e-16, whitened_error=9.199e-10, kl_gaussian=4.243e-19, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.2, cond=7.686e+13, method=KP, cov_error=8.882e-16, whitened_error=0.0001259, kl_gaussian=4.107e-09, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.2, cond=7.686e+13, method=Cholesky, cov_error=4.441e-16, whitened_error=1.907e-10, kl_gaussian=2.055e-20, wasserstein2=0
+part=prior_accuracy, seed=4, k=7, rho=0.2, cond=3.602e+15, method=KP, cov_error=1.332e-15, whitened_error=0.01071, kl_gaussian=4.68e-05, wasserstein2=0
+part=prior_accuracy, seed=4, k=7, rho=0.2, cond=3.602e+15, method=Cholesky, cov_error=4.441e-16, whitened_error=1.515e-09, kl_gaussian=1.448e-18, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.3, cond=1.361e+14, method=KP, cov_error=9.992e-16, whitened_error=0.0006657, kl_gaussian=1.153e-07, wasserstein2=0
+part=prior_accuracy, seed=0, k=7, rho=0.3, cond=1.361e+14, method=Cholesky, cov_error=5.551e-16, whitened_error=2.021e-10, kl_gaussian=2.675e-20, wasserstein2=0
+part=prior_accuracy, seed=1, k=7, rho=0.3, cond=2.525e+13, method=KP, cov_error=8.882e-16, whitened_error=8.552e-05, kl_gaussian=2.733e-09, wasserstein2=0
+part=prior_accuracy, seed=1, k=7, rho=0.3, cond=2.525e+13, method=Cholesky, cov_error=5.551e-16, whitened_error=8.687e-11, kl_gaussian=7.05e-21, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.3, cond=3.506e+16, method=KP, cov_error=1.443e-15, whitened_error=0.03722, kl_gaussian=0.0003553, wasserstein2=0
+part=prior_accuracy, seed=2, k=7, rho=0.3, cond=3.506e+16, method=Cholesky, cov_error=5.551e-16, whitened_error=1.526e-09, kl_gaussian=1.243e-18, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.3, cond=7.805e+14, method=KP, cov_error=1.554e-15, whitened_error=0.001665, kl_gaussian=7.364e-07, wasserstein2=0
+part=prior_accuracy, seed=3, k=7, rho=0.3, cond=7.805e+14, method=Cholesky, cov_error=4.441e-16, whitened_error=6.201e-10, kl_gaussian=2.046e-19, wasserstein2=0
+part=prior_accuracy, seed=4, k=7, rho=0.3, cond=3.552e+16, method=KP, cov_error=1.443e-15, whitened_error=0.1088, kl_gaussian=0.003531, wasserstein2=0
+part=prior_accuracy, seed=4, k=7, rho=0.3, cond=3.552e+16, method=Cholesky, cov_error=6.661e-16, whitened_error=4.623e-09, kl_gaussian=1.504e-17, wasserstein2=0
+== prior_scaling
+part=prior_scaling, seed=0, method=KP, n=100, draws=16, time=0.001568, storage_mb=0.003815
+part=prior_scaling, seed=0, method=Cholesky, n=100, draws=16, time=0.0009148, storage_mb=0.07629
+part=prior_scaling, seed=1, method=KP, n=100, draws=16, time=0.0005942, storage_mb=0.003815
+part=prior_scaling, seed=1, method=Cholesky, n=100, draws=16, time=0.001017, storage_mb=0.07629
+part=prior_scaling, seed=2, method=KP, n=100, draws=16, time=0.0006533, storage_mb=0.003815
+part=prior_scaling, seed=2, method=Cholesky, n=100, draws=16, time=0.0005556, storage_mb=0.07629
+part=prior_scaling, seed=0, method=KP, n=500, draws=16, time=0.0008857, storage_mb=0.01907
+part=prior_scaling, seed=0, method=Cholesky, n=500, draws=16, time=0.005073, storage_mb=1.907
+part=prior_scaling, seed=1, method=KP, n=500, draws=16, time=0.001551, storage_mb=0.01907
+part=prior_scaling, seed=1, method=Cholesky, n=500, draws=16, time=0.005879, storage_mb=1.907
+part=prior_scaling, seed=2, method=KP, n=500, draws=16, time=0.002066, storage_mb=0.01907
+part=prior_scaling, seed=2, method=Cholesky, n=500, draws=16, time=0.004313, storage_mb=1.907
+part=prior_scaling, seed=0, method=KP, n=1000, draws=16, time=0.001646, storage_mb=0.03815
+part=prior_scaling, seed=0, method=Cholesky, n=1000, draws=16, time=0.01508, storage_mb=7.629
+part=prior_scaling, seed=1, method=KP, n=1000, draws=16, time=0.001659, storage_mb=0.03815
+part=prior_scaling, seed=1, method=Cholesky, n=1000, draws=16, time=0.01383, storage_mb=7.629
+part=prior_scaling, seed=2, method=KP, n=1000, draws=16, time=0.001603, storage_mb=0.03815
+part=prior_scaling, seed=2, method=Cholesky, n=1000, draws=16, time=0.03159, storage_mb=7.629
+part=prior_scaling, seed=0, method=KP, n=5000, draws=16, time=0.01902, storage_mb=0.1907
+part=prior_scaling, seed=0, method=Cholesky, n=5000, draws=16, time=4.206, storage_mb=190.7
+part=prior_scaling, seed=1, method=KP, n=5000, draws=16, time=0.01813, storage_mb=0.1907
+part=prior_scaling, seed=1, method=Cholesky, n=5000, draws=16, time=3.024, storage_mb=190.7
+part=prior_scaling, seed=2, method=KP, n=5000, draws=16, time=0.02463, storage_mb=0.1907
+part=prior_scaling, seed=2, method=Cholesky, n=5000, draws=16, time=4.009, storage_mb=190.7
+part=prior_scaling, seed=0, method=KP, n=10000, draws=16, time=0.01418, storage_mb=0.3815
+part=prior_scaling, seed=0, method=Cholesky, n=10000, draws=16, time=12.25, storage_mb=762.9
+part=prior_scaling, seed=1, method=KP, n=10000, draws=16, time=0.02597, storage_mb=0.3815
+part=prior_scaling, seed=1, method=Cholesky, n=10000, draws=16, time=11.52, storage_mb=762.9
+part=prior_scaling, seed=2, method=KP, n=10000, draws=16, time=0.005192, storage_mb=0.3815
+part=prior_scaling, seed=2, method=Cholesky, n=10000, draws=16, time=10.17, storage_mb=762.9
+part=prior_scaling, seed=0, method=KP, n=50000, draws=16, time=0.06193, storage_mb=1.907
+part=prior_scaling, seed=1, method=KP, n=50000, draws=16, time=0.02295, storage_mb=1.907
+part=prior_scaling, seed=2, method=KP, n=50000, draws=16, time=0.03217, storage_mb=1.907
+part=prior_scaling, seed=0, method=KP, n=100000, draws=16, time=0.05109, storage_mb=3.815
+part=prior_scaling, seed=1, method=KP, n=100000, draws=16, time=0.04927, storage_mb=3.815
+part=prior_scaling, seed=2, method=KP, n=100000, draws=16, time=0.07176, storage_mb=3.815
+part=prior_scaling, seed=0, method=KP, n=500000, draws=16, time=0.2864, storage_mb=19.07
+part=prior_scaling, seed=1, method=KP, n=500000, draws=16, time=0.2763, storage_mb=19.07
+part=prior_scaling, seed=2, method=KP, n=500000, draws=16, time=0.2845, storage_mb=19.07
+part=prior_scaling, seed=0, method=KP, n=1000000, draws=16, time=0.5523, storage_mb=38.15
+part=prior_scaling, seed=1, method=KP, n=1000000, draws=16, time=0.5924, storage_mb=38.15
+part=prior_scaling, seed=2, method=KP, n=1000000, draws=16, time=0.6089, storage_mb=38.15
+part=prior_scaling, seed=0, method=KP, n=5000000, draws=16, time=2.671, storage_mb=190.7
+part=prior_scaling, seed=0, method=KP, n=10000000, draws=16, time=5.247, storage_mb=381.5
+part=prior_scaling, seed=0, method=KP, n=50000000, draws=16, time=26.59, storage_mb=1907
+part=prior_scaling, seed=0, method=KP, n=100000000, draws=16, time=53.05, storage_mb=3815
+== posterior_draws
+part=posterior_draws, seed=0, k=3, method=KP, n=20, m=200, draws=4096, rho=0.4176, sigma2=0.2707, train_time=0.001554, test_time=0.05413, w2=0.114, mean_error=0.005866, var_error=0.003654, rmse=0.4323
+part=posterior_draws, seed=0, k=3, method=Cholesky, n=20, m=200, draws=4096, rho=0.4176, sigma2=0.2707, train_time=0.001554, test_time=0.1032, w2=0.1117, mean_error=0.006058, var_error=0.003423, rmse=0.4314
+part=posterior_draws, seed=0, k=5, method=KP, n=20, m=200, draws=4096, rho=0.4592, sigma2=1.192, train_time=0.001549, test_time=0.1276, w2=0.03679, mean_error=0.005929, var_error=0.002431, rmse=0.2558
+part=posterior_draws, seed=0, k=5, method=Cholesky, n=20, m=200, draws=4096, rho=0.4592, sigma2=1.192, train_time=0.001549, test_time=0.08362, w2=0.03631, mean_error=0.006036, var_error=0.001583, rmse=0.255
+part=posterior_draws, seed=0, k=7, method=KP, n=20, m=200, draws=4096, rho=0.7299, sigma2=21.07, train_time=0.002345, test_time=0.1571, w2=0.01942, mean_error=0.00424, var_error=0.0009366, rmse=0.02703
+part=posterior_draws, seed=0, k=7, method=Cholesky, n=20, m=200, draws=4096, rho=0.7299, sigma2=21.07, train_time=0.002345, test_time=0.06801, w2=0.02192, mean_error=0.00458, var_error=0.0008574, rmse=0.02722
+part=posterior_draws, seed=1, k=3, method=KP, n=20, m=200, draws=4096, rho=0.2887, sigma2=0.1645, train_time=0.00116, test_time=0.08253, w2=0.1155, mean_error=0.007444, var_error=0.003513, rmse=0.4609
+part=posterior_draws, seed=1, k=3, method=Cholesky, n=20, m=200, draws=4096, rho=0.2887, sigma2=0.1645, train_time=0.00116, test_time=0.09532, w2=0.1142, mean_error=0.007017, var_error=0.002988, rmse=0.4605
+part=posterior_draws, seed=1, k=5, method=KP, n=20, m=200, draws=4096, rho=0.5244, sigma2=1.63, train_time=0.001349, test_time=0.08, w2=0.04551, mean_error=0.006575, var_error=0.00194, rmse=0.2915
+part=posterior_draws, seed=1, k=5, method=Cholesky, n=20, m=200, draws=4096, rho=0.5244, sigma2=1.63, train_time=0.001349, test_time=0.08827, w2=0.04234, mean_error=0.004485, var_error=0.001543, rmse=0.2886
+part=posterior_draws, seed=1, k=7, method=KP, n=20, m=200, draws=4096, rho=0.6996, sigma2=16.84, train_time=0.001909, test_time=0.146, w2=0.02189, mean_error=0.002287, var_error=0.003143, rmse=0.08066
+part=posterior_draws, seed=1, k=7, method=Cholesky, n=20, m=200, draws=4096, rho=0.6996, sigma2=16.84, train_time=0.001909, test_time=0.05274, w2=0.01935, mean_error=0.002369, var_error=0.0008477, rmse=0.07934
+part=posterior_draws, seed=2, k=3, method=KP, n=20, m=200, draws=4096, rho=0.5033, sigma2=0.4173, train_time=0.001318, test_time=0.08253, w2=0.1251, mean_error=0.007487, var_error=0.009207, rmse=0.3821
+part=posterior_draws, seed=2, k=3, method=Cholesky, n=20, m=200, draws=4096, rho=0.5033, sigma2=0.4173, train_time=0.001318, test_time=0.06599, w2=0.1306, mean_error=0.009709, var_error=0.002054, rmse=0.3787
+part=posterior_draws, seed=2, k=5, method=KP, n=20, m=200, draws=4096, rho=0.4661, sigma2=1.257, train_time=0.001552, test_time=0.09817, w2=0.0332, mean_error=0.009087, var_error=0.001827, rmse=0.2674
+part=posterior_draws, seed=2, k=5, method=Cholesky, n=20, m=200, draws=4096, rho=0.4661, sigma2=1.257, train_time=0.001552, test_time=0.1199, w2=0.03381, mean_error=0.005456, var_error=0.002337, rmse=0.2677
+part=posterior_draws, seed=2, k=7, method=KP, n=20, m=200, draws=4096, rho=0.7148, sigma2=19.29, train_time=0.002195, test_time=0.1274, w2=0.03071, mean_error=0.008648, var_error=0.001295, rmse=0.03167
+part=posterior_draws, seed=2, k=7, method=Cholesky, n=20, m=200, draws=4096, rho=0.7148, sigma2=19.29, train_time=0.002195, test_time=0.06283, w2=0.01292, mean_error=0.003519, var_error=0.0005954, rmse=0.03299
+part=posterior_draws, seed=3, k=3, method=KP, n=20, m=200, draws=4096, rho=0.3945, sigma2=0.3617, train_time=0.007548, test_time=0.08284, w2=0.1274, mean_error=0.007696, var_error=0.002859, rmse=0.2793
+part=posterior_draws, seed=3, k=3, method=Cholesky, n=20, m=200, draws=4096, rho=0.3945, sigma2=0.3617, train_time=0.007548, test_time=0.05422, w2=0.1289, mean_error=0.006349, var_error=0.003277, rmse=0.28
+part=posterior_draws, seed=3, k=5, method=KP, n=20, m=200, draws=4096, rho=0.4806, sigma2=1.616, train_time=0.001812, test_time=0.08179, w2=0.0188, mean_error=0.001404, var_error=0.001111, rmse=0.1456
+part=posterior_draws, seed=3, k=5, method=Cholesky, n=20, m=200, draws=4096, rho=0.4806, sigma2=1.616, train_time=0.001812, test_time=0.07978, w2=0.02345, mean_error=0.002901, var_error=0.0005586, rmse=0.1467
+part=posterior_draws, seed=3, k=7, method=KP, n=20, m=200, draws=4096, rho=0.7452, sigma2=23.3, train_time=0.004159, test_time=0.1077, w2=0.01306, mean_error=0.003441, var_error=0.001077, rmse=0.01104
+part=posterior_draws, seed=3, k=7, method=Cholesky, n=20, m=200, draws=4096, rho=0.7452, sigma2=23.3, train_time=0.004159, test_time=0.1313, w2=0.009719, mean_error=0.001883, var_error=0.0001786, rmse=0.01063
+part=posterior_draws, seed=4, k=3, method=KP, n=20, m=200, draws=4096, rho=0.5073, sigma2=0.3355, train_time=0.001421, test_time=0.07081, w2=0.1283, mean_error=0.008385, var_error=0.003264, rmse=0.4634
+part=posterior_draws, seed=4, k=3, method=Cholesky, n=20, m=200, draws=4096, rho=0.5073, sigma2=0.3355, train_time=0.001421, test_time=0.1088, w2=0.1285, mean_error=0.009015, var_error=0.00689, rmse=0.464
+part=posterior_draws, seed=4, k=5, method=KP, n=20, m=200, draws=4096, rho=0.4509, sigma2=1.187, train_time=0.001556, test_time=0.1113, w2=0.05459, mean_error=0.00662, var_error=0.003089, rmse=0.2556
+part=posterior_draws, seed=4, k=5, method=Cholesky, n=20, m=200, draws=4096, rho=0.4509, sigma2=1.187, train_time=0.001556, test_time=0.0448, w2=0.04523, mean_error=0.002783, var_error=0.004793, rmse=0.2557
+part=posterior_draws, seed=4, k=7, method=KP, n=20, m=200, draws=4096, rho=0.7593, sigma2=25.26, train_time=0.002081, test_time=0.1333, w2=0.01563, mean_error=0.003039, var_error=0.0008653, rmse=0.008023
+part=posterior_draws, seed=4, k=7, method=Cholesky, n=20, m=200, draws=4096, rho=0.7593, sigma2=25.26, train_time=0.002081, test_time=0.08617, w2=0.02399, mean_error=0.001112, var_error=0.002239, rmse=0.008018
+== scaling_1d
+part=scaling_1d, seed=0, method=KP, n=100, rho=999.6, train_time=0.006166, storage_mb=0.009155
+part=scaling_1d, seed=0, method=Cholesky, n=100, rho=999.6, train_time=0.006473, storage_mb=0.07782
+part=scaling_1d, seed=1, method=KP, n=100, rho=999.6, train_time=0.003267, storage_mb=0.009155
+part=scaling_1d, seed=1, method=Cholesky, n=100, rho=999.6, train_time=0.008962, storage_mb=0.07782
+part=scaling_1d, seed=2, method=KP, n=100, rho=999.6, train_time=0.006513, storage_mb=0.009155
+part=scaling_1d, seed=2, method=Cholesky, n=100, rho=999.6, train_time=0.01031, storage_mb=0.07782
+part=scaling_1d, seed=0, method=KP, n=500, rho=999.7, train_time=0.02102, storage_mb=0.04578
+part=scaling_1d, seed=0, method=Cholesky, n=500, rho=999.7, train_time=0.1079, storage_mb=1.915
+part=scaling_1d, seed=1, method=KP, n=500, rho=999.7, train_time=0.03155, storage_mb=0.04578
+part=scaling_1d, seed=1, method=Cholesky, n=500, rho=999.7, train_time=0.09177, storage_mb=1.915
+part=scaling_1d, seed=2, method=KP, n=500, rho=999.3, train_time=0.01764, storage_mb=0.04578
+part=scaling_1d, seed=2, method=Cholesky, n=500, rho=999.3, train_time=0.09364, storage_mb=1.915
+part=scaling_1d, seed=0, method=KP, n=1000, rho=999.4, train_time=0.03867, storage_mb=0.09155
+part=scaling_1d, seed=0, method=Cholesky, n=1000, rho=999.4, train_time=0.3502, storage_mb=7.645
+part=scaling_1d, seed=1, method=KP, n=1000, rho=999.4, train_time=0.04574, storage_mb=0.09155
+part=scaling_1d, seed=1, method=Cholesky, n=1000, rho=999.4, train_time=0.3498, storage_mb=7.645
+part=scaling_1d, seed=2, method=KP, n=1000, rho=999.4, train_time=0.05023, storage_mb=0.09155
+part=scaling_1d, seed=2, method=Cholesky, n=1000, rho=999.4, train_time=0.3475, storage_mb=7.645
+part=scaling_1d, seed=0, method=KP, n=5000, rho=999.6, train_time=0.1709, storage_mb=0.4578
+part=scaling_1d, seed=0, method=Cholesky, n=5000, rho=999.6, train_time=50.6, storage_mb=190.8
+part=scaling_1d, seed=1, method=KP, n=5000, rho=999.6, train_time=0.1639, storage_mb=0.4578
+part=scaling_1d, seed=1, method=Cholesky, n=5000, rho=999.6, train_time=42.77, storage_mb=190.8
+part=scaling_1d, seed=2, method=KP, n=5000, rho=999.6, train_time=0.1627, storage_mb=0.4578
+part=scaling_1d, seed=2, method=Cholesky, n=5000, rho=999.6, train_time=45.97, storage_mb=190.8
+part=scaling_1d, seed=0, method=KP, n=10000, rho=999.5, train_time=0.2113, storage_mb=0.9155
+part=scaling_1d, seed=0, method=Cholesky, n=10000, rho=999.5, train_time=146, storage_mb=763.1
+part=scaling_1d, seed=1, method=KP, n=10000, rho=999.5, train_time=0.2196, storage_mb=0.9155
+part=scaling_1d, seed=1, method=Cholesky, n=10000, rho=999.5, train_time=149.4, storage_mb=763.1
+part=scaling_1d, seed=2, method=KP, n=10000, rho=999.5, train_time=0.1823, storage_mb=0.9155
+part=scaling_1d, seed=2, method=Cholesky, n=10000, rho=999.5, train_time=161.2, storage_mb=763.1
+part=scaling_1d, seed=0, method=KP, n=50000, rho=999.5, train_time=0.383, storage_mb=4.578
+part=scaling_1d, seed=1, method=KP, n=50000, rho=999.5, train_time=0.4115, storage_mb=4.578
+part=scaling_1d, seed=2, method=KP, n=50000, rho=999.5, train_time=0.3778, storage_mb=4.578
+part=scaling_1d, seed=0, method=KP, n=100000, rho=999.5, train_time=0.5254, storage_mb=9.155
+part=scaling_1d, seed=1, method=KP, n=100000, rho=999.5, train_time=0.5843, storage_mb=9.155
+part=scaling_1d, seed=2, method=KP, n=100000, rho=999.5, train_time=0.6006, storage_mb=9.155
+part=scaling_1d, seed=0, method=KP, n=500000, rho=999.5, train_time=2.253, storage_mb=45.78
+part=scaling_1d, seed=1, method=KP, n=500000, rho=999.5, train_time=2.317, storage_mb=45.78
+part=scaling_1d, seed=2, method=KP, n=500000, rho=999.5, train_time=2.441, storage_mb=45.78
+part=scaling_1d, seed=0, method=KP, n=1000000, rho=999.5, train_time=4.183, storage_mb=91.55
+part=scaling_1d, seed=1, method=KP, n=1000000, rho=999.5, train_time=4.351, storage_mb=91.55
+part=scaling_1d, seed=2, method=KP, n=1000000, rho=999.5, train_time=4.474, storage_mb=91.55
+part=scaling_1d, seed=0, method=KP, n=5000000, rho=999.5, train_time=18.67, storage_mb=457.8
+part=scaling_1d, seed=0, method=KP, n=10000000, rho=999.5, train_time=33.59, storage_mb=915.5
+part=scaling_1d, seed=0, method=KP, n=50000000, rho=999.5, train_time=169.5, storage_mb=4578
+part=scaling_1d, seed=0, method=KP, n=100000000, rho=999.5, train_time=332.3, storage_mb=9155
+== posterior_sparse_grid
+part=posterior_sparse_grid, seed=0, d=2, method=KP, level=8, inducing=769, n=1024, m=200, draws=4096, rho=0.3473, sigma2=1, tau2=0.009973, train_time=2.042, test_time=0.1157, storage_mb=13.67, w2=0.1166, rmse=0.1215
+part=posterior_sparse_grid, seed=0, d=2, method=Cholesky, level=8, inducing=769, n=1024, m=200, draws=4096, rho=0.3473, sigma2=1, tau2=0.009973, train_time=2.042, test_time=0.04773, storage_mb=8.023, w2=0.08932, rmse=0.1213
+part=posterior_sparse_grid, seed=1, d=2, method=KP, level=8, inducing=769, n=1024, m=200, draws=4096, rho=0.3464, sigma2=1, tau2=0.009077, train_time=1.707, test_time=0.1274, storage_mb=13.67, w2=0.1173, rmse=0.186
+part=posterior_sparse_grid, seed=1, d=2, method=Cholesky, level=8, inducing=769, n=1024, m=200, draws=4096, rho=0.3464, sigma2=1, tau2=0.009077, train_time=1.707, test_time=0.05159, storage_mb=8.023, w2=0.08616, rmse=0.1879
+part=posterior_sparse_grid, seed=2, d=2, method=KP, level=8, inducing=769, n=1024, m=200, draws=4096, rho=0.312, sigma2=0.6028, tau2=0.01016, train_time=5.876, test_time=0.09541, storage_mb=13.67, w2=0.1122, rmse=0.1997
+part=posterior_sparse_grid, seed=2, d=2, method=Cholesky, level=8, inducing=769, n=1024, m=200, draws=4096, rho=0.312, sigma2=0.6028, tau2=0.01016, train_time=5.876, test_time=0.0351, storage_mb=8.023, w2=0.09359, rmse=0.1994
+part=posterior_sparse_grid, seed=0, d=4, method=KP, level=8, inducing=769, n=1024, m=200, draws=4096, rho=1.461, sigma2=1.003, tau2=0.01724, train_time=18.26, test_time=0.1496, storage_mb=13.74, w2=0.09038, rmse=0.2479
+part=posterior_sparse_grid, seed=0, d=4, method=Cholesky, level=8, inducing=769, n=1024, m=200, draws=4096, rho=1.461, sigma2=1.003, tau2=0.01724, train_time=18.26, test_time=0.04986, storage_mb=8.039, w2=0.07383, rmse=0.248
+part=posterior_sparse_grid, seed=1, d=4, method=KP, level=8, inducing=769, n=1024, m=200, draws=4096, rho=1.308, sigma2=1.003, tau2=0.01597, train_time=4.848, test_time=0.1158, storage_mb=13.74, w2=0.1141, rmse=0.2418
+part=posterior_sparse_grid, seed=1, d=4, method=Cholesky, level=8, inducing=769, n=1024, m=200, draws=4096, rho=1.308, sigma2=1.003, tau2=0.01597, train_time=4.848, test_time=0.03276, storage_mb=8.039, w2=0.08557, rmse=0.2421
+part=posterior_sparse_grid, seed=2, d=4, method=KP, level=8, inducing=769, n=1024, m=200, draws=4096, rho=1.338, sigma2=1.003, tau2=0.01821, train_time=17.65, test_time=0.08289, storage_mb=13.74, w2=0.1157, rmse=0.2397
+part=posterior_sparse_grid, seed=2, d=4, method=Cholesky, level=8, inducing=769, n=1024, m=200, draws=4096, rho=1.338, sigma2=1.003, tau2=0.01821, train_time=17.65, test_time=0.05391, storage_mb=8.039, w2=0.08591, rmse=0.2396
+part=posterior_sparse_grid, seed=0, d=8, method=KP, level=10, inducing=161, n=1024, m=200, draws=4096, rho=8.603, sigma2=1.014, tau2=0.01036, train_time=4.862, test_time=0.02206, storage_mb=0.6599, w2=0.04373, rmse=0.03486
+part=posterior_sparse_grid, seed=0, d=8, method=Cholesky, level=10, inducing=161, n=1024, m=200, draws=4096, rho=8.603, sigma2=1.014, tau2=0.01036, train_time=4.862, test_time=0.03145, storage_mb=8.07, w2=0.02172, rmse=0.03467
+part=posterior_sparse_grid, seed=1, d=8, method=KP, level=10, inducing=161, n=1024, m=200, draws=4096, rho=8.123, sigma2=1.018, tau2=0.01001, train_time=5.991, test_time=0.07087, storage_mb=0.6599, w2=0.0479, rmse=0.0326
+part=posterior_sparse_grid, seed=1, d=8, method=Cholesky, level=10, inducing=161, n=1024, m=200, draws=4096, rho=8.123, sigma2=1.018, tau2=0.01001, train_time=5.991, test_time=0.06111, storage_mb=8.07, w2=0.02281, rmse=0.03255
+part=posterior_sparse_grid, seed=2, d=8, method=KP, level=10, inducing=161, n=1024, m=200, draws=4096, rho=8.432, sigma2=0.9893, tau2=0.009595, train_time=5.505, test_time=0.08381, storage_mb=0.6599, w2=0.04546, rmse=0.03197
+part=posterior_sparse_grid, seed=2, d=8, method=Cholesky, level=10, inducing=161, n=1024, m=200, draws=4096, rho=8.432, sigma2=0.9893, tau2=0.009595, train_time=5.505, test_time=0.03789, storage_mb=8.07, w2=0.02201, rmse=0.0319

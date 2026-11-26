@@ -1,0 +1,40 @@
+[project]
+name = "kernel-packets"
+version = "1.0.0"
+description = "Kernel packets: exact O(n) Gaussian processes with Matern kernels in 1-D, sparse-grid inducing points in d dimensions"
+requires-python = "==3.14.0"
+dependencies = [
+    "numpy==2.5.5",
+    "scipy==1.18.1",
+    "matplotlib==3.11.2",
+]
+
+[project.optional-dependencies]
+jax = ["jax==0.12.0.1", "jaxlib==0.12.0.1"]
+torch = ["torch==2.14.1"]
+all = ["jax==0.12.0.1", "jaxlib==0.12.0.1", "torch==2.14.1"]
+cuda = ["jax[cuda12]==0.12.0.1"]
+test = ["pytest==9.2.0"]
+
+[tool.uv]
+required-version = "==0.13.4"
+
+# torch with CUDA 12.6 on Linux (2.14.1 is the newest build for CUDA 12, which still supports Volta / V100; the
+# PyPI wheel is CUDA 13, sm_75 and newer); PyPI elsewhere
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu126", marker = "sys_platform == 'linux'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kernel_packets", "src/benchmarks", "src/evaluation"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

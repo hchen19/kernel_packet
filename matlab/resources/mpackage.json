@@ -1,0 +1,21 @@
+{
+    "name": "kernel_packets",
+    "displayName": "Kernel Packets",
+    "version": "1.0.0",
+    "id": "bbe13550-8f1d-44bd-b4be-a2290e3c627a",
+    "summary": "Kernel packets: exact O(n) Gaussian processes with Matern kernels in 1-D, sparse-grid inducing points in d dimensions",
+    "description": "MATLAB front-end of the C++ core in cpp/ (MEX gateway build/kp_mex). Base MATLAB only: no toolbox is required.",
+    "releaseCompatibility": ">=R2023b",
+    "dependencies": [],
+    "folders": [
+        {"path": "src/kernel_packets/backend"},
+        {"path": "src/kernel_packets/kernel_packets"},
+        {"path": "src/kernel_packets/likelihood"},
+        {"path": "src/kernel_packets/regression"},
+        {"path": "src/kernel_packets/sampling"},
+        {"path": "src/kernel_packets/sparse_grid"},
+        {"path": "src/benchmarks"},
+        {"path": "src/evaluation/metrics"},
+        {"path": "src/evaluation/plotting"}
+    ]
+}

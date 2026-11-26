@@ -1,0 +1,258 @@
+# Ignored: Python, C++, Julia, MATLAB, macOS, JetBrains and VS Code artifacts.
+# Committed for exact reproduction: python/uv.lock, python/.python-version, julia/Manifest.toml.
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+*.lcov
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# PEP 582
+__pypackages__/
+
+# Environments
+.env
+.env.*
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda-meta/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
+.pypirc
+
+# AI / coding agents: settings, instructions, memory, sessions, caches
+# Claude / Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+# OpenAI GPT / Codex / ChatGPT
+.codex/
+.openai/
+.chatgpt/
+AGENTS.override.md
+# Google Gemini / Gemini CLI / Jules / Antigravity
+.gemini/
+GEMINI.md
+.geminiignore
+.jules/
+.agent/
+.agents/
+.antigravity/
+# Cursor
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+.specstory/
+# GitHub Copilot
+.copilot/
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/
+# Windsurf / Codeium
+.windsurf/
+.windsurfrules
+.codeiumignore
+.codeium/
+# Aider
+.aider*
+# Cline / Roo Code / Kilo Code
+.cline/
+.clinerules
+.clineignore
+.roo/
+.roomodes
+.rooignore
+.kilocode/
+# Continue
+.continue/
+.continuerules
+.continueignore
+# Amazon Q / Kiro
+.amazonq/
+.kiro/
+# JetBrains Junie / AI Assistant
+.junie/
+.aiassistant/
+.aiignore
+# Others: Trae, Augment, Tabnine, Qwen Code, OpenCode, Crush, Goose, Zed, Abstra
+.trae/
+.augment/
+.augmentignore
+.augment-guidelines
+.tabnine/
+.tabnineignore
+.qwen/
+QWEN.md
+.opencode/
+opencode.json
+.crush/
+CRUSH.md
+.goosehints
+.rules
+.abstra/
+
+# Editors
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.vscode/
+*.code-workspace
+.history/
+*.swp
+*.swo
+*~
+tempCodeRunnerFile.py
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+__MACOSX/
+
+# Windows / Linux
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.directory
+.Trash-*
+
+# C++ build output (cpp/ -> build/: libkernel_packets.so, kp_mex.*)
+*.o
+*.obj
+*.a
+*.lib
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.app
+*.gch
+*.pch
+*.d
+*.ilk
+*.pdb
+compile_commands.json
+.cache/
+
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mlappinstall
+*.mltbx
+*.autosave
+*.slxc
+slprj/
+sccprj/
+codegen/
+octave-workspace
+helpsearch*/
+resources/project/
+
+# Julia binary and package depot (scripts/setup_env.sh julia), coverage and docs build
+.julia/
+# Pinned C++ compiler (scripts/setup_env.sh)
+.gcc/
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+deps/build.log
+
+# JAX persistent compilation cache (scripts/run_*.sh)
+.jax_cache/
+
+# Logs and cluster job output
+*.log
+kp_*.o[0-9]*
+kp_*.e[0-9]*
+run_*.sh.o[0-9]*
+run_*.sh.e[0-9]*
+slurm-*.out
+**/results/log_*.txt
+
+# CUDA intermediates and core dumps
+*.cubin
+*.fatbin
+*.ptx
+core.[0-9]*
+
+# Saved experiment curve caches (regenerated for replot: Python, Julia, MATLAB)
+*.npz
+*.npy
+*.jls
+*.mat

@@ -1,0 +1,53 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to validate (e.g. v1.0.0)"
+        required: true
+        default: "v1.0.0"
+
+permissions:
+  contents: write
+
+env:
+  KP_ALLOW_ANY_CXX: "1"
+
+jobs:
+  verify-and-release:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Verify version metadata matches tag
+        run: |
+          tag="${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}"
+          ver="${tag#v}"
+          python3 - "$ver" <<'PY'
+          import json, pathlib, re, sys, tomllib
+
+          ver = sys.argv[1]
+          checks = {
+              "python/pyproject.toml": tomllib.loads(pathlib.Path("python/pyproject.toml").read_text())["project"]["version"],
+              "julia/Project.toml": tomllib.loads(pathlib.Path("julia/Project.toml").read_text())["version"],
+              "matlab/resources/mpackage.json": json.loads(pathlib.Path("matlab/resources/mpackage.json").read_text())["version"],
+              "python/src/kernel_packets/__init__.py": re.search(r'__version__\s*=\s*"([^"]+)"', pathlib.Path("python/src/kernel_packets/__init__.py").read_text())[1],
+              "cpp/include/c_api.hpp": re.search(r'#define\s+KP_VERSION\s+"([^"]+)"', pathlib.Path("cpp/include/c_api.hpp").read_text())[1],
+          }
+          for path, found in checks.items():
+              assert found == ver, f"{path}: expected {ver}, found {found}"
+              print(f"OK {path}: {found}")
+          PY
+
+      - name: Build and run C++ tests
+        run: scripts/setup_env.sh cpp
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v3
+        with:
+          generate_release_notes: true

@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  KP_ALLOW_ANY_CXX: "1"
+
+jobs:
+  cpp:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build and run C++ tests
+        run: scripts/setup_env.sh cpp
+      - name: Run C++ examples
+        run: |
+          build/example_regression
+          build/example_sampling
+
+  python:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/cache@v6
+        with:
+          path: ~/.cache/uv
+          key: ${{ runner.os }}-uv-${{ hashFiles('python/uv.lock') }}
+      - name: Set up Python environment and build C++ core
+        run: scripts/setup_env.sh python --cpu
+      - name: Run Python tests
+        run: cd python && .venv/bin/python -m pytest -v
+
+  julia:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/cache@v6
+        with:
+          path: .julia
+          key: ${{ runner.os }}-julia-1.12.0-${{ hashFiles('julia/Manifest.toml') }}
+      - name: Set up Julia environment and build C++ core
+        run: scripts/setup_env.sh julia
+      - name: Run Julia tests
+        run: JULIA_DEPOT_PATH="$PWD/.julia/depot" .julia/julia-*/bin/julia --project=julia julia/tests/runtests.jl
+
+  matlab:
+    # MathWorks licenses MATLAB on GitHub-hosted runners for public repositories without a
+    # token; this repository uses no secrets, so the job is skipped while it is private.
+    if: ${{ !github.event.repository.private }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: matlab-actions/setup-matlab@v3
+        with:
+          release: R2026b
+      # buildfile.m is in matlab/ (run-build has no working-directory input)
+      - uses: matlab-actions/run-command@v3
+        with:
+          command: cd matlab; buildtool test
